@@ -18,3 +18,13 @@ together as an example of an unitimidating Jekyll setup.
   `_sass` directory, I do not care for this default as having css and
   `_sass` as siblings in the root seems messy and confusingto new
   developers to the project.
+
+## Project Configuration Notes
+
+* All pages go in the `_pages` directory instead of the root for
+  tidier source code
+* Pages get the `page` layout by default per `_config.yml` so you only
+  have to define layout in frontmatter for special cases (probably
+  rare).
+* Posts get the `post` layout by default per `_config.yml` just like
+  pages.
