@@ -28,3 +28,6 @@ together as an example of an unitimidating Jekyll setup.
   rare).
 * Posts get the `post` layout by default per `_config.yml` just like
   pages.
+* There exists `baseurl` configureation in `_config.yml` to make this project work
+  with github pages. If you fork this project to host elsewhere, you'll
+  need to change that accordingly.
